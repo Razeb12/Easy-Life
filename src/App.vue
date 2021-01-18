@@ -281,10 +281,26 @@ a.read_more:hover {
     color: #EFB21D;
     border: 1px solid #EFB21D;
 }
+
+@media only screen and (max-width: 500px) {
+  .navbar-nav {
+    background-color: #374045;
+    border-top: 3px solid #fed136;
+    color: #fff;
+    z-index: 1;
+    margin-top: 5px;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    padding: 0.7em 1em !important;
+    font-size: 100%;
+    font-weight: 500;
+  }
   .navbar {
   padding-top: 0;
   padding-bottom: 0;
   background-color: #374045;
+}
 }
 
 </style>
