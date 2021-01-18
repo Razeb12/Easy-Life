@@ -42,7 +42,6 @@
               </div>
             </div>
           </div>
-
         </div>
         </div>
       </div>
@@ -196,5 +195,11 @@ img:nth-child(5) {
 img {
     max-width: 100%;
 }
+@media (max-width: 768px) {
+    img.pic {
+        height: 100%;
 
+    }
+
+}
 </style>
