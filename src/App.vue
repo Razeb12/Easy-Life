@@ -281,5 +281,10 @@ a.read_more:hover {
     color: #EFB21D;
     border: 1px solid #EFB21D;
 }
+  .navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: #374045;
+}
 
 </style>
