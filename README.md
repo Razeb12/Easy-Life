@@ -1,4 +1,4 @@
-# easy-life
+# Reserve-Service
 
 ## Project setup
 ```
