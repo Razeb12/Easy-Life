@@ -1,53 +1,71 @@
 <template>
-    <div>
- <section id="aboutUs">
+  <div>
+    <section id="aboutUs">
+      <div class="inner_wrapper aboutUs-container fadeInLeft animated wow">
+        <div class="container">
+          <h2>About Us</h2>
+          <h6>
+            We are a Port Harcourt Based Company with a passion for helping
+            clients who may be otherwise too busy to keep their houses in shape.
+            We will bear that responsibility of restoring your home/offices
+            spaces into great working conditions.
+          </h6>
+          <div class="inner_section">
+            <div class="row">
+              <div class="col-lg-12 about-us">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h3>Our Potential Clients</h3>
 
-    <div class="inner_wrapper aboutUs-container fadeInLeft animated wow">
-      <div class="container">
-        <h2>About Us</h2>
-        <h6>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6>
-        <div class="inner_section">
+                    <ul class="about-us-list">
+                      <li class="points">
+                        Does your work take you away from home so long and you
+                        come back to meet a mess ?
+                      </li>
+                      <li class="points">
+                        Having windows clogged with soot due to inability to
+                        keep up with the maintenance and external pollution ?
+                      </li>
+                      <li class="points">
+                        Would you like professional laundry service that starts
+                        from home-pick up and delivery of your laundry items at
+                        an affordable fee ?
+                      </li>
+                      <li class="points">
+                        Would you like to get rid of bed-bugs, roaches that have
+                        infested your home/office space ?
+                      </li>
+                    </ul>
+                  </div>
 
-          <div class="row">
-            <div class="col-lg-12 about-us">
-              <div class="row">
-             
-                <div class="col-md-6">
-                  <h3>We Make your Homes more beutiful</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida tortor orci ipsum
-                    gravida tortor. Lorem ipsum dolor sit amet, consectetur.
-                  </p>
-
-                  <ul class="about-us-list">
-                    <li class="points">Consectetur Morbi sagittis, sem quisci ipsum gravida tortor</li>
-                    <li class="points">Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida </li>
-                    <li class="points">Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci gravida </li>
-                    <li class="points">Sagittis, sem quis lacinia faucibus, orci ipsum gravida </li>
-                    <li class="points">Ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci</li>
-                  </ul>
-                </div>
-
-                <div class="col-md-6">
-                 <!-- <img src="img/dinning-room-695074.jpg" alt="" class="container-fluid"> -->
-                 <div class="wrapper">
-                    <div class="pic-ctn">
-                      <img src="../assets/dinning-room-695074.jpg" alt="" class="pic">
-                      <img src="../assets/1.jpg" alt="" class="pic">
-                      <img src="../assets/2.jpg" alt="" class="pic">
-                      <img src="../assets/3.jpg" alt="" class="pic">
-                      <img src="../assets/furniture-998265_1920.jpg" alt="" class="pic">
+                  <div class="col-md-6">
+                    <!-- <img src="img/dinning-room-695074.jpg" alt="" class="container-fluid"> -->
+                    <div class="wrapper">
+                      <div class="pic-ctn">
+                        <img
+                          src="../assets/dinning-room-695074.jpg"
+                          alt=""
+                          class="pic"
+                        />
+                        <img src="../assets/1.jpg" alt="" class="pic" />
+                        <img src="../assets/2.jpg" alt="" class="pic" />
+                        <img src="../assets/3.jpg" alt="" class="pic" />
+                        <img
+                          src="../assets/furniture-998265_1920.jpg"
+                          alt=""
+                          class="pic"
+                        />
+                      </div>
                     </div>
-                 </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        </div>
       </div>
-    </div>
-  </section>
-    </div>
+    </section>
+  </div>
 </template>
 
 <script>
@@ -132,74 +150,72 @@ export default {
   padding: 60px 0;
 }
 .pic-ctn {
-    width: 100vw;
-    height: 200px;
+  width: 100vw;
+  height: 200px;
 }
 
 @keyframes display {
-    0% {
-        transform: translateX(200px);
-        opacity: 0;
-    }
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
 
-    10% {
-        transform: translateX(0);
-        opacity: 1;
-    }
+  10% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 
-    20% {
-        transform: translateX(0);
-        opacity: 1;
-    }
+  20% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 
-    30% {
-        transform: translateX(-200px);
-        opacity: 0;
-    }
+  30% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
 
-    100% {
-        transform: translateX(-200px);
-        opacity: 0;
-    }
+  100% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
 }
 .pic-ctn {
-    position: relative;
-    width: 100vw;
-    height: 300px;
-    /* margin-top: 15vh; */
+  position: relative;
+  width: 100vw;
+  height: 300px;
+  /* margin-top: 15vh; */
 }
 
-.pic-ctn>img {
-    position: absolute;
-    top: 0;
-    left: calc(50% - 100px);
-    opacity: 0;
-    animation: display 20s infinite;
+.pic-ctn > img {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 100px);
+  opacity: 0;
+  animation: display 20s infinite;
 }
 
 img:nth-child(2) {
-    animation-delay: 4s;
+  animation-delay: 4s;
 }
 
 img:nth-child(3) {
-    animation-delay: 8s;
+  animation-delay: 8s;
 }
 
 img:nth-child(4) {
-    animation-delay: 12s;
+  animation-delay: 12s;
 }
 
 img:nth-child(5) {
-    animation-delay: 16s;
+  animation-delay: 16s;
 }
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 @media (max-width: 768px) {
-    img.pic {
-        height: 100%;
-
-    }
-
+  img.pic {
+    height: 100%;
+  }
 }
 </style>
