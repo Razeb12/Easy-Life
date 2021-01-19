@@ -40,10 +40,7 @@
             <div class="row">
               <div class="col-md-12">
                 <div class="top_left_cont zoomIn wow animated">
-                  <h2>
-                    Welcome to Restore Services<br />
-                    <strong>Life</strong>
-                  </h2>
+                  <h2>Welcome to Restore Services<br /></h2>
                   <div class="underline"></div>
                   <a href="#service" class="read_more2">Book Now</a>
                 </div>
